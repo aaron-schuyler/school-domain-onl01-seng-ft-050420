@@ -18,6 +18,6 @@ class School
   def sort
     @roster.sort_by do |grade, name|
       name.sort
-      
+    end
   end
 end
