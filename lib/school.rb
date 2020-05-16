@@ -16,7 +16,7 @@ class School
     @roster[grade]
   end
   def sort
-    @temp_roster.collect do |k,v|
+    @roster.collect do |k,v|
       v.sort
     end
   end
