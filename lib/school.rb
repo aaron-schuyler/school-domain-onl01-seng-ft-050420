@@ -17,7 +17,7 @@ class School
   end
   def sort
     @roster.collect do |k,v|
-      v.sort
+     k => v.sort
     end
   end
 end
