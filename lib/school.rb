@@ -18,5 +18,6 @@ class School
   def sort
     @temp_roster.collect do |k,v|
       v.sort
+    end
   end
 end
